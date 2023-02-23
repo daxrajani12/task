@@ -1,7 +1,20 @@
 // Write a C program that displays given number in string format. 
 // e.g., 10 -> ten 100 -> hundred 5270 -> five thousand two hundred seventy
-
+/**
+    * @file q1.c
+    * @brief Write a C program that displays given number in string format. 
+*/
 #include<stdio.h>
+
+/**
+    *@brief this takes int as an input and converts that number into the words accordingly
+    *@param n is taken as input and will be converted in words
+    *@param number will print single digit numbers
+    *@param nty will print 10s nmbers
+    *@param tens will print numbers from ten, eleven to nineteen
+    *@warning this works only for those numbers which are less than 99999
+*/
+
 int main(){
     char *number[] = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     char *nty[] = { "", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };

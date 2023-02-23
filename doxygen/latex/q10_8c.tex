@@ -1,0 +1,69 @@
+\hypertarget{q10_8c}{}\doxysection{q10.\+c File Reference}
+\label{q10_8c}\index{q10.c@{q10.c}}
+
+
+Write a C program to find sub\+\_\+st/substring from a given string. If substring is available print \char`\"{}\+Search successful\char`\"{} otherwise print \char`\"{}\+Search Unsuccessful\char`\"{}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{q10_8c_ae2f907f37f7d25c0f8dcf72f3b299e77}{search}} (char $\ast$string, char $\ast$sub\+\_\+st)
+\begin{DoxyCompactList}\small\item\em get two strings one is main string and another is sub string and compares them \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{q10_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em passes two strings to \mbox{\hyperlink{q10_8c_ae2f907f37f7d25c0f8dcf72f3b299e77}{search()}} function and when it gets the result prints the output accordingly \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Write a C program to find sub\+\_\+st/substring from a given string. If substring is available print \char`\"{}\+Search successful\char`\"{} otherwise print \char`\"{}\+Search Unsuccessful\char`\"{}. 
+
+\begin{DoxyAuthor}{Author}
+Dax 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{q10_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{q10_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{q10.c@{q10.c}!main@{main}}
+\index{main@{main}!q10.c@{q10.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+passes two strings to \mbox{\hyperlink{q10_8c_ae2f907f37f7d25c0f8dcf72f3b299e77}{search()}} function and when it gets the result prints the output accordingly 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & main string \\
+\hline
+{\em sub\+\_\+st} & sub string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+it stores the value returned by the \mbox{\hyperlink{q10_8c_ae2f907f37f7d25c0f8dcf72f3b299e77}{search()}} function 
+\end{DoxyReturn}
+\mbox{\Hypertarget{q10_8c_ae2f907f37f7d25c0f8dcf72f3b299e77}\label{q10_8c_ae2f907f37f7d25c0f8dcf72f3b299e77}} 
+\index{q10.c@{q10.c}!search@{search}}
+\index{search@{search}!q10.c@{q10.c}}
+\doxysubsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily int search (\begin{DoxyParamCaption}\item[{char $\ast$}]{string,  }\item[{char $\ast$}]{sub\+\_\+st }\end{DoxyParamCaption})}
+
+
+
+get two strings one is main string and another is sub string and compares them 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str\+\_\+len} & length of main string \\
+\hline
+{\em key\+\_\+len} & length of string which it finds from the main string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if it finds the sub-\/string in the main string 
+
+0 if it does not find the sub-\/string in the main string 
+\end{DoxyReturn}

@@ -1,0 +1,58 @@
+\hypertarget{q6_8c}{}\doxysection{q6.\+c File Reference}
+\label{q6_8c}\index{q6.c@{q6.c}}
+
+
+Write a C program that expands given short norm to expanded string. e.\+g., if passed string is \char`\"{}a-\/g\char`\"{} output should be \char`\"{}abcdefg\char`\"{} if passed string is \char`\"{}b-\/h4-\/8\char`\"{} output should be \char`\"{}bcdefgh45678\char`\"{} if passed string is \char`\"{}-\/c-\/e-\/\char`\"{} output should be "{}cde.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{q6_8c_a655e22a9bc9ad996f289764decb1a557}{expand}} (char $\ast$start\+\_\+st, char $\ast$expanded)
+\begin{DoxyCompactList}\small\item\em this expands the given short norm and prints that \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{q6_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em it takes the short norm and pass that to the expand function \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Write a C program that expands given short norm to expanded string. e.\+g., if passed string is \char`\"{}a-\/g\char`\"{} output should be \char`\"{}abcdefg\char`\"{} if passed string is \char`\"{}b-\/h4-\/8\char`\"{} output should be \char`\"{}bcdefgh45678\char`\"{} if passed string is \char`\"{}-\/c-\/e-\/\char`\"{} output should be "{}cde. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{q6_8c_a655e22a9bc9ad996f289764decb1a557}\label{q6_8c_a655e22a9bc9ad996f289764decb1a557}} 
+\index{q6.c@{q6.c}!expand@{expand}}
+\index{expand@{expand}!q6.c@{q6.c}}
+\doxysubsubsection{\texorpdfstring{expand()}{expand()}}
+{\footnotesize\ttfamily void expand (\begin{DoxyParamCaption}\item[{char $\ast$}]{start\+\_\+st,  }\item[{char $\ast$}]{expanded }\end{DoxyParamCaption})}
+
+
+
+this expands the given short norm and prints that 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & it is assiged value which is increamented whith one of value befor \char`\"{}-\/\char`\"{} \\
+\hline
+{\em end} & it is assigned to the point which is after the \char`\"{}-\/\char`\"{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{q6_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{q6_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{q6.c@{q6.c}!main@{main}}
+\index{main@{main}!q6.c@{q6.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+it takes the short norm and pass that to the expand function 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+\_\+st} & is short norm which will be expanded \\
+\hline
+{\em expanded} & expanded string will be stored in it \\
+\hline
+\end{DoxyParams}

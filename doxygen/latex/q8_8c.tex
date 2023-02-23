@@ -1,0 +1,62 @@
+\hypertarget{q8_8c}{}\doxysection{q8/q8.c File Reference}
+\label{q8_8c}\index{q8/q8.c@{q8/q8.c}}
+
+
+Write a C program to compare two strings (returns 0 on success and -\/1 on failure) Define above function in another c file instead of main source file. Make a Makefile to compile these c files.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}string\+\_\+compare.\+c\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{q8_8c_a8edfae9606f62a482398940b1931293d}{string\+\_\+compare}} (char $\ast$str1, char $\ast$str2)
+\begin{DoxyCompactList}\small\item\em this compates two strings and gives output \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{q8_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em this takes two strings as and input and passes them to the function and then when function returns values it prints results accordingly \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Write a C program to compare two strings (returns 0 on success and -\/1 on failure) Define above function in another c file instead of main source file. Make a Makefile to compile these c files. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{q8_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{q8_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{q8.c@{q8.c}!main@{main}}
+\index{main@{main}!q8.c@{q8.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+this takes two strings as and input and passes them to the function and then when function returns values it prints results accordingly 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str1} & it is one of the two strings which will be compared \\
+\hline
+{\em str2} & it is one of the two strings which will be compared \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{q8_8c_a8edfae9606f62a482398940b1931293d}\label{q8_8c_a8edfae9606f62a482398940b1931293d}} 
+\index{q8.c@{q8.c}!string\_compare@{string\_compare}}
+\index{string\_compare@{string\_compare}!q8.c@{q8.c}}
+\doxysubsubsection{\texorpdfstring{string\_compare()}{string\_compare()}}
+{\footnotesize\ttfamily int string\+\_\+compare (\begin{DoxyParamCaption}\item[{char $\ast$}]{str1,  }\item[{char $\ast$}]{str2 }\end{DoxyParamCaption})}
+
+
+
+this compates two strings and gives output 
+
+\begin{DoxyReturn}{Returns}
+it returns 0 if both strings are same else it will return -\/1
+\end{DoxyReturn}
+this compates two strings and gives output
+
+\begin{DoxyReturn}{Returns}
+-\/1 strings are not equal 
+
+0 strings are equal 
+\end{DoxyReturn}

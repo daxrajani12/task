@@ -1,4 +1,15 @@
+/**
+    * @file string_compare.c
+    * @brief this file is included in q8.c file to access its functionality. it compares two strings and gives output accordingly
+*/
+
 #include <stdio.h>
+
+/**
+    * @brief it compares two strings 
+    * @return -1 strings are not equal
+    * @return 0 strings are equal
+*/
 
 int string_compare(char* str1, char* str2) {
     int i=0;
